@@ -1,0 +1,104 @@
+/*
+* dSig developed by Damion Mullins
+*/
+
+._dSig_hide_textarea {
+    visibility: hidden;
+    color: transparent;
+    background-color: transparent;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+
+._dSig_canvas {
+    border-bottom: solid 1px #333;
+}
+
+._dSig_canvas_container {
+    display: inline-block;
+    padding: 5px 10px 10px 5px;
+    border-radius: 5px;
+    touch-action: none;
+}
+
+._dSig_canvas_container_initials {
+    display: inline-block;
+    padding: 5px 10px 10px 5px;
+    border-radius: 5px;
+    touch-action: none;
+}
+
+._dSig_canvas_container_border {
+    border: solid 2px #ccc;
+}
+
+._dSig_canvas_container:before {
+    content: "\00d7";
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+    left: 10px;
+    color: #333;
+}
+
+._dSig_text_container_initials {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+
+._dSig_text_container {
+    font-size: 12px;
+    margin: 0 10px;
+    color: #333;
+}
+
+._dSig_controls_container_initials {
+    margin-top: 5px;
+    text-align: center;
+}
+
+._dSig_controls_container {
+    margin-top: 5px;
+    text-align: right;
+}
+
+._dSig_controls_buttons {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+._dSig_controls_buttons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+._dSig_controls_buttons_clear {
+    background-color: #dc3545;
+}
+
+._dSig_controls_buttons_upload {
+    display: none;
+}
+
+._dSig_controls_buttons_upload_disabled {
+    opacity: .2;
+}
+
+._dSig_controls_buttons_upload_label {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+}
+
+
+
+
+
+
